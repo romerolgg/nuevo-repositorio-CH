@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke
+} 
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.navBar li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
